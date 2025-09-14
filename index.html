@@ -22,6 +22,8 @@
         card.className = 'sample';
 
         let html = `<h3>${s.label}</h3>`;
+        html += `<div class="row">`;
+
         s.items.forEach(item => {
           html += `
             <div class="method">
@@ -32,6 +34,7 @@
           `;
         });
 
+        html += `</div>`;
         card.innerHTML = html;
         root.appendChild(card);
       });

@@ -1,16 +1,31 @@
+.sample {
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  max-width: 100%;
+  overflow-x: auto;   /* 가로 스크롤 허용 */
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;  /* 줄바꿈 금지 */
+  gap: 20px;
+}
+
 .method {
-  margin-bottom: 24px;
+  flex: 0 0 220px;    /* 각 칸 고정 폭 */
+  text-align: center;
 }
 
 .method img.spec {
-  display: block;
-  width: 100%;    /* 오디오와 같은 가로폭 */
-  max-width: 800px;
-  height: auto;   /* 세로는 비율 유지 */
+  width: 100%;   /* method 칸의 가로폭에 맞춤 */
+  height: auto;  /* 비율 유지 (자동 계산) */
+  object-fit: contain;
   margin: 10px 0;
 }
 
 audio {
-  width: 100%;    /* 이미지와 동일한 가로폭 */
-  max-width: 800px;
+  width: 100%;   /* 이미지와 맞춤 */
 }
