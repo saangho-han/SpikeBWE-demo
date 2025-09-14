@@ -1,4 +1,12 @@
 [
-  {"label":"Sample 1","orig":"samples/test1.wav","enh":"samples/test2.wav"},
-  {"label":"Sample 2","orig":"samples/test1.wav","enh":"samples/test2.wav"}
+  {
+    "label": "Sample 1",
+    "items": [
+      {"name": "Ground Truth", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Band-limited", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Baseline-1", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Baseline-2", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Proposed", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"}
+    ]
+  }
 ]

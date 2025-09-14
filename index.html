@@ -16,26 +16,29 @@
       const samples = await res.json();
       const root = document.getElementById('list');
       root.innerHTML = '';
+
       samples.forEach(s => {
         const card = document.createElement('div');
         card.className = 'sample';
-        card.innerHTML = `
-          <h3>${s.label}</h3>
-          <div class="row">
-            <div>
-              <strong>Original</strong><br/>
-              <audio controls preload="none" src="${s.orig}"></audio>
+
+        let html = `<h3>${s.label}</h3>`;
+        s.items.forEach(item => {
+          html += `
+            <div class="method">
+              <p><strong>${item.name}</strong></p>
+              <img src="${item.img}" alt="${item.name} spectrogram" class="spec">
+              <audio controls preload="none" src="${item.wav}"></audio>
             </div>
-            <div>
-              <strong>Enhanced</strong><br/>
-              <audio controls preload="none" src="${s.enh}"></audio>
-            </div>
-          </div>
-        `;
+          `;
+        });
+
+        card.innerHTML = html;
         root.appendChild(card);
       });
     }
-    loadSamples().catch(e=>{document.getElementById('list').innerText='샘플을 불러오지 못했습니다.'});
+    loadSamples().catch(e=>{
+      document.getElementById('list').innerText='샘플을 불러오지 못했습니다.';
+    });
   </script>
 </body>
 </html>

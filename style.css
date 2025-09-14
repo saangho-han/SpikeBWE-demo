@@ -1,5 +1,16 @@
-body{font-family:Inter,Arial;margin:30px;background:#f7f7f7;color:#222}
-h1{text-align:center}
-.sample{max-width:900px;margin:16px auto;padding:18px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
-.row{display:flex;gap:20px;flex-wrap:wrap}
-audio{width:320px;max-width:100%}
+.method {
+  margin-bottom: 24px;
+}
+
+.method img.spec {
+  display: block;
+  width: 100%;    /* 오디오와 같은 가로폭 */
+  max-width: 800px;
+  height: auto;   /* 세로는 비율 유지 */
+  margin: 10px 0;
+}
+
+audio {
+  width: 100%;    /* 이미지와 동일한 가로폭 */
+  max-width: 800px;
+}
