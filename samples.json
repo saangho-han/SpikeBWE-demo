@@ -12,11 +12,11 @@
   {
     "label": "Sample 2",
     "items": [
-      {"name": "Ground Truth", "img": "samples/spectrogram/spec2_gt.png", "wav": "samples/audio/sample2_gt.wav"},
-      {"name": "Band-limited", "img": "samples/spectrogram/spec2_bl.png", "wav": "samples/audio/sample2_bl.wav"},
-      {"name": "Baseline-1",   "img": "samples/spectrogram/spec2_b1.png", "wav": "samples/audio/sample2_b1.wav"},
-      {"name": "Baseline-2",   "img": "samples/spectrogram/spec2_b2.png", "wav": "samples/audio/sample2_b2.wav"},
-      {"name": "Proposed",     "img": "samples/spectrogram/spec2_prop.png", "wav": "samples/audio/sample2_prop.wav"}
+      {"name": "Ground Truth", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Band-limited", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Baseline-1", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Baseline-2", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"},
+      {"name": "Proposed", "img": "samples/spectrogram/spec_text.png", "wav": "samples/audio/test1.wav"}
     ]
   }
 ]
