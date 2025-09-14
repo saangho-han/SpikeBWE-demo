@@ -6,8 +6,16 @@
   <title>Audio Demo</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-  <h1>Audio Demo</h1>
+  <h1>SpikeBWE Demo Site</h1>
+  <div class="description">
+    <p>TBD</p>
+    <p>TBD</p>
+    <p>TBD</p>
+  </div>
+
   <div id="list">Loading samples...</div>
 
   <script>
@@ -21,9 +29,7 @@
         const card = document.createElement('div');
         card.className = 'sample';
 
-        let html = `<h3>${s.label}</h3>`;
-        html += `<div class="row">`;
-
+        let html = `<h2>${s.label}</h2><div class="row">`;
         s.items.forEach(item => {
           html += `
             <div class="method">
@@ -33,8 +39,8 @@
             </div>
           `;
         });
-
         html += `</div>`;
+
         card.innerHTML = html;
         root.appendChild(card);
       });
@@ -44,4 +50,3 @@
     });
   </script>
 </body>
-</html>

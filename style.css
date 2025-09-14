@@ -29,3 +29,11 @@
 audio {
   width: 100%;   /* 이미지와 맞춤 */
 }
+
+.description {
+  text-align: center;
+  font-size: 1.1em;
+  color: #444;
+  margin: 10px auto 30px;
+  line-height: 1.5em;
+}
