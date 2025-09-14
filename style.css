@@ -1,0 +1,5 @@
+body{font-family:Inter,Arial;margin:30px;background:#f7f7f7;color:#222}
+h1{text-align:center}
+.sample{max-width:900px;margin:16px auto;padding:18px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.row{display:flex;gap:20px;flex-wrap:wrap}
+audio{width:320px;max-width:100%}

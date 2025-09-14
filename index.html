@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Audio Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Audio Demo</h1>
+  <div id="list">Loading samples...</div>
+
+  <script>
+    async function loadSamples() {
+      const res = await fetch('samples.json');
+      const samples = await res.json();
+      const root = document.getElementById('list');
+      root.innerHTML = '';
+      samples.forEach(s => {
+        const card = document.createElement('div');
+        card.className = 'sample';
+        card.innerHTML = `
+          <h3>${s.label}</h3>
+          <div class="row">
+            <div>
+              <strong>Original</strong><br/>
+              <audio controls preload="none" src="${s.orig}"></audio>
+            </div>
+            <div>
+              <strong>Enhanced</strong><br/>
+              <audio controls preload="none" src="${s.enh}"></audio>
+            </div>
+          </div>
+        `;
+        root.appendChild(card);
+      });
+    }
+    loadSamples().catch(e=>{document.getElementById('list').innerText='샘플을 불러오지 못했습니다.'});
+  </script>
+</body>
+</html>

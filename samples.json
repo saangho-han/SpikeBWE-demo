@@ -1,0 +1,4 @@
+[
+  {"label":"Sample 1","orig":"samples/test1.wav","enh":"samples/test2.wav"},
+  {"label":"Sample 2","orig":"samples/test1.wav","enh":"samples/test2.wav"}
+]
