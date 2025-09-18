@@ -42,9 +42,16 @@ h1 {
 .authors {
   width: 1000px;
   margin: 0 auto 30px auto;
-  text-align: right;
+  text-align: center;
   font-size: 14px;
   line-height: 1.4;
+}
+
+/* Abstract title  */
+.abs123 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 2.4;
 }
 
 /* Abstract */
@@ -54,6 +61,13 @@ h1 {
   text-align: justify;   /* 양쪽 정렬 */
   font-size: 16px;
   line-height: 1.6;
+}
+
+/* Abstract title  */
+.exp123 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 2.4;
 }
 
 /* Table */
