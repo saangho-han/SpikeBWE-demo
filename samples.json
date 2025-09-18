@@ -2,12 +2,12 @@
   {
     "label": "Sample 1(Male)",
     "items": [
-      {"name": "Ground Truth", "img": "samples/audio/SA2_127/SA2_127_GT.png", "wav": "samples/audio/SA2_127_GT.wav"},
-      {"name": "Band-limited", "img": "samples/audio/SA2_127/SA2_127_LPF.png", "wav": "samples/audio/SA2_127_LPF.wav"},
-      {"name": "TUNet", "img": "samples/audio/SA2_127/SA2_127_TUNET.png", "wav": "samples/audio/SA2_127_TUNET.wav"},
-      {"name": "AERO", "img": "samples/audio/SA2_127/SA2_127_AERO.png", "wav": "samples/audio/SA2_127_AERO.wav"},
-      {"name": "AP-BWE", "img": "samples/audio/SA2_127/SA2_127_AP-BWE.png", "wav": "samples/audio/SA2_127_AP-BWE.wav"},
-      {"name": "SGMSE", "img": "samples/audio/SA2_127/SA2_127_SGMSE.png", "wav": "samples/audio/SA2_127_SGMSE.wav"},
+      {"name": "Ground Truth", "img": "samples/audio/SA2_127/SA2_127_GT.png", "wav": "samples/audio/SA2_127/SA2_127_GT.wav"},
+      {"name": "Band-limited", "img": "samples/audio/SA2_127/SA2_127_LPF.png", "wav": "samples/audio/SA2_127/SA2_127_LPF.wav"},
+      {"name": "TUNet", "img": "samples/audio/SA2_127/SA2_127_TUNET.png", "wav": "samples/audio/SA2_127/SA2_127_TUNET.wav"},
+      {"name": "AERO", "img": "samples/audio/SA2_127/SA2_127_AERO.png", "wav": "samples/audio/SA2_127/SA2_127_AERO.wav"},
+      {"name": "AP-BWE", "img": "samples/audio/SA2_127/SA2_127_AP-BWE.png", "wav": "samples/audio/SA2_127/SA2_127_AP-BWE.wav"},
+      {"name": "SGMSE", "img": "samples/audio/SA2_127/SA2_127_SGMSE.png", "wav": "samples/audio/SA2_127/SA2_127_SGMSE.wav"},
       {"name": "SpikeBWE(Proposed)", "img": "samples/audio/SA2_127/SA2_127_SPIKEBWE.png", "wav": "samples/audio/SA2_127/SA2_127_SPIKEBWE.wav"}
     ]
   },
