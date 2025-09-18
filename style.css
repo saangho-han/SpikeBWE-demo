@@ -81,3 +81,16 @@ h1 {
   font-weight: bold;   /* 볼드체 */
   color: blue;         /* 파란색 */
 }
+
+/* Table */ 
+.table-block { 
+  width: 1000px;
+  margin: 0 auto; 
+  text-align: center; 
+} 
+
+.demo-img { 
+  width: 100%; /* block에 맞춤 */ 
+  max-width: 1000px; /* 최대 1000px */ 
+  height: auto; 
+}
