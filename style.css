@@ -32,13 +32,13 @@ audio {
 
 /* ===== 새로 정리 ===== */
 
-/* 제목 */
+/* ===== 제목 (논문 큰 제목) ===== */
 h1 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* 저자 정보 */
+/* ===== 저자 정보 ===== */
 .authors {
   width: 1000px;
   margin: 0 auto 30px auto;
@@ -47,14 +47,24 @@ h1 {
   line-height: 1.4;
 }
 
-/* Abstract title  */
+/* 저자 이름(맨 윗줄)만 스타일링 */
+.authors .names {
+  font-size: 18px;   /* 글씨 크기 키움 */
+  font-style: italic; /* 이탤릭체 */
+  display: block;     /* 줄 구분 */
+  margin-bottom: 5px;
+}
+
+/* ===== Abstract title ===== */
 .abs123 {
   text-align: center;
   font-size: 24px;
   line-height: 2.4;
+  font-weight: bold;   /* 볼드체 */
+  color: blue;         /* 파란색 */
 }
 
-/* Abstract */
+/* ===== Abstract 본문 ===== */
 .abstract {
   width: 1000px;
   margin: 0 auto 30px auto;
@@ -63,22 +73,11 @@ h1 {
   line-height: 1.6;
 }
 
-/* Abstract title  */
+/* ===== Experimental Results title ===== */
 .exp123 {
   text-align: center;
   font-size: 24px;
   line-height: 2.4;
-}
-
-/* Table */
-.table-block {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.demo-img {
-  width: 100%;          /* block에 맞춤 */
-  max-width: 1000px;    /* 최대 1000px */
-  height: auto;
+  font-weight: bold;   /* 볼드체 */
+  color: blue;         /* 파란색 */
 }
