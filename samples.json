@@ -12,7 +12,7 @@
     ]
   },
   {
-    "label": "Sample 7(Female)",
+    "label": "Sample 2(Female)",
     "items": [
       {"name": "Ground Truth", "img": "samples/audio/SI2189/SI2189_GT.png", "wav": "samples/audio/SI2189/SI2189_GT.wav"},
       {"name": "Band-limited", "img": "samples/audio/SI2189/SI2189_LPF.png", "wav": "samples/audio/SI2189/SI2189_LPF.wav"},
